@@ -24,20 +24,66 @@
 
         <div id="section1" class="section">
             <h4 id="caption1" class="caption"> This is caption one:</h4>
-            <p id="question1" class="question">- Question1 question1<span class="dropable" id="drop1">drop answer here</span>bla bla bla</p><br/>
-            <p id="question2" class="question">- Question2 question2<span class="dropable" id="drop2">drop answer here</span>bla bla bla</p><br/>
-            <p id="question3" class="question">- Question3 question3<span class="dropable" id="drop3">drop answer here</span>bla bla bla</p><br/>
+            <p id="question1" class="question">- Krav1 krav1<span class="dropable" id="drop1" ondrop="drop(event, this)" ondragover="allowDrop(event)" >svar...</span>bla bla bla</p><br/>
+            <p id="question2" class="question">- Krav2 krav2<span class="dropable" id="drop2" ondrop="drop(event, this)" ondragover="allowDrop(event)" >svar...</span>bla bla bla</p><br/>
+            <p id="question3" class="question">- Krav3 krav3<span class="dropable" id="drop3" ondrop="drop(event, this)" ondragover="allowDrop(event)" >svar...</span>bla bla bla</p><br/>
         </div>
 
         <div id="section2" class="section">
             <h4 id="caption2" class="caption"> This is caption two:</h4>
-            <p id="question1" class="question">- Question1 Question1<span class="dropable" id="drop1">drop answer here</span>bla bla bla</p><br/>
-            <p id="question2" class="question">- Question2 question2<span class="dropable" id="drop2">drop answer here</span>bla bla bla</p><br/>
-            <p id="question3" class="question">- Question3 question3<span class="dropable" id="drop3">drop answer here</span>bla bla bla</p><br/>
+            <p id="question1" class="question">- Krav1 krav1<span class="dropable" id="drop1" ondrop="drop(event, this)" ondragover="allowDrop(event)">svar...</span>bla bla bla</p><br/>
+            <p id="question2" class="question">- Krav2 krav2<span class="dropable" id="drop2" ondrop="drop(event, this)" ondragover="allowDrop(event)">svar...</span>bla bla bla</p><br/>
+            <p id="question3" class="question">- Krav3 krav3<span class="dropable" id="drop3" ondrop="drop(event, this)" ondragover="allowDrop(event)">svar...</span>bla bla bla</p><br/>
         </div>
     </div>
 
+    <div id="options_wrapper">
+        <div id="option1" class="option">
+            <img id="option_image" src="img/button.png" width="30" height="26" />
+            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 1</p>
+        </div>
+
+        <div id="option1" class="option">
+            <img id="option_image" src="img/button.png" width="30" height="26" />
+            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 2</p>
+        </div>
+
+        <div id="option1" class="option">
+            <img id="option_image" src="img/button.png" width="30" height="26" />
+            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 3</p>
+        </div>
+        <div id="option1" class="option">
+            <img id="option_image" src="img/button.png" width="30" height="26" />
+            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 4</p>
+        </div>
+
+        <div id="option1" class="option">
+            <img id="option_image" src="img/button.png" width="30" height="26" />
+            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 5</p>
+        </div>
+
+        <div id="option1" class="option">
+            <img id="option_image" src="img/button.png" width="30" height="26" />
+            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 6</p>
+        </div>
+        <div id="option1" class="option">
+            <img id="option_image" src="img/button.png" width="30" height="26" />
+            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 7</p>
+        </div>
+
+        <div id="option1" class="option">
+            <img id="option_image" src="img/button.png" width="30" height="26" />
+            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 8</p>
+        </div>
+
+        <div id="option1" class="option">
+            <img id="option_image" src="img/button.png" width="30" height="26" />
+            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 9</p>
+        </div>
+    </div>
 </body>
+
+<script src="js/DragDropHandler.js""></script>
 
 
 </html>
