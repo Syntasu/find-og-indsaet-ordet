@@ -21,7 +21,7 @@
 
     <div id="content_wrapper">
         <div id="situation">
-            <p id="situation_text">Situation text</p>
+            <p id="situation_text">Situation text</p> 
         </div>
 
         <div id="section1" class="section">
