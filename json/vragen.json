@@ -1,0 +1,57 @@
+{
+  "section1":[
+  {
+    "caption": "Caption 1",
+    "vragen" :[
+      {
+        "vraag" : "this is a question 1",
+        "answerid" : "1"
+      },
+      {
+        "vraag" : "this is a question 2",
+        "answerid" : "2"
+      },
+      {
+        "vraag" : "this is a question 3",
+        "answerid" : "3"
+      }
+    ]
+  }],
+  "section2":[
+  {
+    "caption": "Caption 2",
+    "vragen" :[
+      {
+        "vraag" : "this is a question 1",
+        "answerid" : "1"
+      },
+      {
+        "vraag" : "this is a question 2",
+        "answerid" : "2"
+      },
+      {
+        "vraag" : "this is a question 3",
+        "answerid" : "3"
+      }
+    ]
+  }],
+
+  "section3":[
+    {
+      "caption": "Caption 3",
+      "vragen": [
+        {
+          "vraag": "this is a question 1",
+          "answerid": "1"
+        },
+        {
+          "vraag": "this is a question 2",
+          "answerid": "2"
+        },
+        {
+          "vraag": "this is a question 3",
+          "answerid": "3"
+        }
+      ]
+    }]
+}
