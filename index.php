@@ -3,8 +3,6 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/opgave.js"></script>
-
     <title>Find og indsaet ordet</title>
 <head>
 
