@@ -32,12 +32,11 @@ function StartGeneratingQuestions()
 function CreateCaption($id, $text)
 {
     echo "<div id='section".$id."' class='section'>";
-    echo "<h4 id='caption2' class='caption'>".ToUTF8($text)."</h4>";
+    echo "<h4 id='caption2' class='caption'>".HTMLSafeString($text)."</h4>";
 }
 
 function CreateQuestions($id, $text)
 {
-    $newtext = ApplyBasicFormat($text);
-    echo "<p id='question".$id."' class='question'>".ToUTF8($newtext)."</p><br/>";
+    echo "<p id='question".$id."' class='question'>".HTMLSafeString($text)."</p><br/>";
 }
 ?>

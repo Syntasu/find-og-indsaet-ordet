@@ -12,12 +12,10 @@
 
     float:left;
 }
-
 #reset_image {
     margin-top: -1px;
     display:inline-block;
 }
-
 #reset_text {
 
     display: inline-block;
@@ -43,7 +41,6 @@
     margin-left: 20%;
     text-align: center;
 }
-
 #score_text{
     margin-top: 2%;
     font-weight: bold;
@@ -67,14 +64,12 @@
     text-overflow: ellipsis;
     padding-bottom: 20px;
 }
-
 #situation {
     background-color: azure;
     border: 1px solid rgba(0,0,0,0.25);
 
     margin: 15px 15px 15px 15px;
 }
-
 #situation_text {
     padding: 5px 5px 5px 10px;
     font-weight: bold;
@@ -93,7 +88,6 @@
 
     padding-bottom: 20px;
 }
-
 #option_text {
     display: inline-block;
 
@@ -114,7 +108,6 @@
 
     color: rgba(88,88,88,0.5);
 }
-
 .question{
     display: inline-block;
     margin: 0;
@@ -127,7 +120,6 @@
 
     border-bottom: 1px solid rgba(0,0,0,0.5);
 }
-
 .caption{
     margin-left: 15px;
     margin-right: 15px;
@@ -144,10 +136,8 @@
 #option_image:hover {
     cursor: pointer;
 }
-
 #reset_wrapper:hover {
     cursor:pointer;
 }
 
-/* Media queries */
 

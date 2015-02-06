@@ -2,7 +2,6 @@
     include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateQuestions.php";
     include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateOptions.php";
     include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateSituation.php";
-
 ?>
 
 <!DOCTYPE html>
@@ -14,17 +13,17 @@
     <head>
 
     <body>
-        <div id="reset_wrapper"">
+        <div id="reset_wrapper" onclick="ResetAll()"">
             <img id="reset_image" src="img/button.png" width="40" height="36" />
-            <h3 id="reset_text">Igen</h3>
+            <h3 id="reset_text">Reset</h3>
         </div>
 
         <div id="score_wrapper">
             <p id="score_text" >
-                <span id="correct_text">Rigtige</span>
+                <span id="correct_text">Good</span>
                 :&nbsp; <span id="score_correct">0</span>
 
-                &nbsp; <span id="wrong_text">Forkerte</span>:
+                &nbsp; <span id="wrong_text">Wrong</span>:
                 &nbsp; <span id="score_wrong">0</span>
             </p>
         </div>
@@ -47,5 +46,6 @@
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script id="scripts" src="js/DragDropManager.js"></script>
     <script id="scripts" src="js/LanguageManager.js"></script>
+    <script id="scripts" src="js/Reset.js"></script>
 
 </html>

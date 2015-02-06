@@ -5,18 +5,16 @@ function GetJsonFileContent($p)
     return file_get_contents($p);
 }
 
-function ToUTF8($string)
+function HTMLSafeString($subject)
 {
-    return utf8_decode($string);
-}
+    $utfdecode = utf8_decode($subject);
 
-function ApplyBasicFormat($subject)
-{
     $search = array(
-        "[input]" => "<span class='dropable' id='drop3' ondrop='Drop(event, this)' ondragover='AllowedDrop(event)'>svar...</span>",
-        "[break]" => "<br/>"
+        "[input]" => "<span class='dropable' id='drop' ondrop='Drop(event, this)' ondragover='AllowedDrop(event)'>svar...</span>",
+        "[break]" => "<br/>",
+        "[indent]" => "&nbsp;"
     );
 
-    return str_replace(array_keys($search), array_values($search), $subject);
+    return str_replace(array_keys($search), array_values($search), $utfdecode);
 }
 ?>

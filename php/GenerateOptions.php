@@ -11,7 +11,7 @@ function StartGeneratingOptions()
     {
         foreach($result as $option)
         {
-            CreateOption($option['id'], ToUTF8($option['word']));
+            CreateOption($option['id'], HTMLSafeString($option['word']));
         }
     }
 }

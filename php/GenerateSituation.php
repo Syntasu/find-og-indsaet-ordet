@@ -24,7 +24,7 @@ function StartGeneratingSituation()
 function CreateSituation($text)
 {
     echo "<div id='situation'>
-            <p id='situation_text'>".ToUTF8($text)."</p>
+            <p id='situation_text'>".HTMLSafeString($text)."</p>
           </div>";
 }
 

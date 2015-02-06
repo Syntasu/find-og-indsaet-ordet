@@ -5,7 +5,7 @@
       "language": "nl",
 
       "situation": "true",
-      "situation_text": "Du hard en aftale med din søster i byen på fredag. Du kan ikke komme så du melder afbud"
+      "situation_text": "Du hard en aftale med din søster i byen på fredag. [break][indent] Du kan ikke komme så du melder afbud"
     }
   ]
 }
