@@ -13,10 +13,6 @@
     float:left;
 }
 
-#reset_wrapper:hover {
-    cursor:pointer;
-}
-
 #reset_image {
     margin-top: -1px;
     display:inline-block;
@@ -135,5 +131,13 @@
 }
 
 /* Pseudo elements */
+#option_image:hover {
+    cursor: pointer;
+}
 
+#reset_wrapper:hover {
+    cursor:pointer;
+}
+
+/* Media queries */
 

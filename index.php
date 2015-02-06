@@ -38,50 +38,14 @@
     </div>
 
     <div id="options_wrapper">
-        <div id="option1" class="option">
-            <img id="option_image" src="img/button.png" width="30" height="26" />
-            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 1</p>
-        </div>
-
-        <div id="option1" class="option">
-            <img id="option_image" src="img/button.png" width="30" height="26" />
-            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 2</p>
-        </div>
-
-        <div id="option1" class="option">
-            <img id="option_image" src="img/button.png" width="30" height="26" />
-            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 3</p>
-        </div>
-        <div id="option1" class="option">
-            <img id="option_image" src="img/button.png" width="30" height="26" />
-            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 4</p>
-        </div>
-
-        <div id="option1" class="option">
-            <img id="option_image" src="img/button.png" width="30" height="26" />
-            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 5</p>
-        </div>
-
-        <div id="option1" class="option">
-            <img id="option_image" src="img/button.png" width="30" height="26" />
-            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 6</p>
-        </div>
-        <div id="option1" class="option">
-            <img id="option_image" src="img/button.png" width="30" height="26" />
-            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 7</p>
-        </div>
-
-        <div id="option1" class="option">
-            <img id="option_image" src="img/button.png" width="30" height="26" />
-            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 8</p>
-        </div>
-
-        <div id="option1" class="option">
-            <img id="option_image" src="img/button.png" width="30" height="26" />
-            <p draggable="true" ondragstart="drag(event)" id="option_text">Valg 9</p>
-        </div>
+        <?php
+            include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateOptions.php";
+            StartGeneratingOptions();
+        ?>
     </div>
 </body>
+
+
 
 <script src="js/DragDropHandler.js""></script>
 

@@ -1,19 +1,62 @@
 {"Options":[
   {
-    "id": "1",
+    "id": "0",
     "word": "Jeg"
   },
   {
-    "id": "2",
+    "id": "1",
     "word": "skal"
   },
   {
-    "id": "3",
+    "id": "2",
     "word": "Hvad"
   },
   {
-    "id": "4",
+    "id": "3",
     "word": "gerne"
+  },
+  {
+    "id": "4",
+    "word": "desværre"
+  },
+  {
+    "id": "5",
+    "word": "på"
+  },
+  {
+    "id": "6",
+    "word": "kære"
+  },
+  {
+    "id": "7",
+    "word": "du"
+  },
+  {
+    "id": "8",
+    "word": "hilsen"
+  },
+  {
+    "id": "9",
+    "word": "afbud"
+  },
+  {
+    "id": "10",
+    "word": "kan"
+  },
+  {
+    "id": "11",
+    "word": "aftale"
+  },
+  {
+    "id": "12",
+    "word": "med"
+  },
+  {
+    "id": "13",
+    "word": "Kan"
+  },
+  {
+    "id": "14",
+    "word": "håber"
   }
 ]}
-
