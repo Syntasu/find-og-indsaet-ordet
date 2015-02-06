@@ -24,7 +24,7 @@ function CreateOption($id, $text)
 {
     echo '<div id="option'. $id . '" class="option">
             <img id="option_image" src="img/button.png" width="30" height="26" />
-            <p draggable="true" ondragstart="drag(event)" id="option_text">'.$text.'</p>
+            <p draggable="true" ondragstart="Drag(event)" id="option_text">'.$text.'</p>
         </div>';
 }
 

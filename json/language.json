@@ -1,0 +1,33 @@
+{"nl":
+  [
+    {
+      "reset_text": "Reset",
+      "correct_text": "Goed",
+      "wrong_text": "Fout"
+    }
+  ],
+  "frl":
+  [
+    {
+      "reset_text": "Oernij",
+      "correct_text": "Korrekt",
+      "wrong_text": "Ferkeard"
+    }
+  ],
+  "dk":
+  [
+    {
+      "reset_text": "Ingen",
+      "correct_text": "Rigtige",
+      "wrong_text": "Forkerte"
+    }
+  ],
+  "en":
+  [
+    {
+      "reset_text": "Reset",
+      "correct_text": "Good",
+      "wrong_text": "Wrong"
+    }
+  ]
+}

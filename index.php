@@ -13,7 +13,13 @@
         </div>
 
         <div id="score_wrapper">
-            <p id="score_text" >Rigtige:&nbsp; <span id="score_correct">0</span> &nbsp; Forkerte: &nbsp; <span id="score_wrong">0</span></p>
+            <p id="score_text" >
+                <span id="correct_text">Rigtige</span>
+                :&nbsp; <span id="score_correct">0</span>
+
+                &nbsp; <span id="wrong_text">Forkerte</span>:
+                &nbsp; <span id="score_wrong">0</span>
+            </p>
         </div>
 
 
@@ -36,6 +42,8 @@
         </div>
     </body>
 
-    <script src="js/DragDropHandler.js""></script>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script id="scripts" src="js/DragDropManager.js"></script>
+    <script id="scripts" src="js/LanguageManager.js"></script>
 
 </html>

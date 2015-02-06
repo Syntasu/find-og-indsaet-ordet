@@ -37,7 +37,7 @@ function CreateCaption($id, $text)
 
 function CreateQuestions($id, $text)
 {
-    $search = array("[input]" => "<span class='dropable' id='drop3' ondrop='drop(event, this)' ondragover='allowDrop(event)'>svar...</span>");
+    $search = array("[input]" => "<span class='dropable' id='drop3' ondrop='Drop(event, this)' ondragover='AllowedDrop(event)'>svar...</span>");
     $newtext = StringReplaceAssociative($search, $text);
 
     echo "<p id='question".$id."' class='question'>".ToUTF8($newtext)."</p><br/>";
