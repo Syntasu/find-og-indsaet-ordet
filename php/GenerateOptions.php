@@ -28,9 +28,8 @@ function CreateOption($id, $text)
         </div>';
 }
 
-function ToUTF8($string){
+function ToUTF8($string)
+{
     return utf8_decode($string);
 }
-
-
 ?>

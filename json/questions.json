@@ -1,36 +1,36 @@
 {
   "section1":[
   {
-    "caption": "Caption 1",
+    "caption": "Du skal melde afbud til aftalen:",
     "vragen" :[
       {
-        "vraag" : "this is a question 1",
+        "vraag" : "Jeg kan ikke [input] komme på fredag.",
         "answerid" : "1"
       },
       {
-        "vraag" : "this is a question 2",
+        "vraag" : "Jeg melder afbud til vores [input].",
         "answerid" : "2"
       },
       {
-        "vraag" : "this is a question 3",
+        "vraag" : "Ja må desvære melde [input] til aftalen på fredag",
         "answerid" : "3"
       }
     ]
   }],
   "section2":[
   {
-    "caption": "Caption 2",
+    "caption": "Du skal fortælle, hvorfor du ikke kan komme:",
     "vragen" :[
       {
-        "vraag" : "this is a question 1",
+        "vraag" : "Jeg [input] ikke komme, fordi jeg skal i lektie-café.",
         "answerid" : "1"
       },
       {
-        "vraag" : "this is a question 2",
+        "vraag" : "Det er, fordi jeg skal [input] arbedje.",
         "answerid" : "2"
       },
       {
-        "vraag" : "this is a question 3",
+        "vraag" : "[input] skal til tandlæge.",
         "answerid" : "3"
       }
     ]
@@ -38,18 +38,26 @@
 
   "section3":[
     {
-      "caption": "Caption 3",
+      "caption": "Du skal foreslå en ny aftale",
       "vragen": [
         {
-          "vraag": "this is a question 1",
+          "vraag": "Vi kan mødes på lørdag kl. 15. Hvad synes [input]",
           "answerid": "1"
         },
         {
-          "vraag": "this is a question 2",
+          "vraag": "[input] vi mødes næste fredag i stedet for?",
           "answerid": "2"
         },
         {
-          "vraag": "this is a question 3",
+          "vraag": "Jeg forslår en ny aftale [input] med lørdag eftermiddag?",
+          "answerid": "3"
+        },
+        {
+          "vraag": "Jeg [input], du kan komme.",
+          "answerid": "3"
+        },
+        {
+          "vraag": "Kærlig [input] .....",
           "answerid": "3"
         }
       ]
