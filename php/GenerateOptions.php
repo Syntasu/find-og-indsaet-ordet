@@ -1,4 +1,5 @@
 <?php
+include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateHelper.php";
 
 function StartGeneratingOptions()
 {
@@ -15,11 +16,6 @@ function StartGeneratingOptions()
     }
 }
 
-function GetJsonFileContent($p)
-{
-    return file_get_contents($p);
-}
-
 function CreateOption($id, $text)
 {
     echo '<div id="option'. $id . '" class="option">
@@ -28,8 +24,4 @@ function CreateOption($id, $text)
         </div>';
 }
 
-function ToUTF8($string)
-{
-    return utf8_decode($string);
-}
 ?>

@@ -1,3 +1,10 @@
+<?php
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateQuestions.php";
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateOptions.php";
+    include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateSituation.php";
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -24,19 +31,14 @@
 
 
         <div id="content_wrapper">
-            <div id="situation">
-                <p id="situation_text">Situation text</p>
-            </div>
-
             <?php
-                include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateQuestions.php";
+                StartGeneratingSituation();
                 StartGeneratingQuestions();
             ?>
         </div>
 
         <div id="options_wrapper">
             <?php
-                include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateOptions.php";
                 StartGeneratingOptions();
             ?>
         </div>

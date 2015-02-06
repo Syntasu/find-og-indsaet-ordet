@@ -8,9 +8,6 @@ function AllowedDrop(ev)
 function Drag(ev)
 {
     dragging = ev.target;
-
-    console.log(dragging.id);
-
     ev.dataTransfer.setData('Text/html', ev.target.id);
 }
 

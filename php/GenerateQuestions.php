@@ -1,5 +1,5 @@
 <?php
-include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateOptions.php";
+include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/php/GenerateHelper.php";
 
 function StartGeneratingQuestions()
 {
@@ -37,15 +37,7 @@ function CreateCaption($id, $text)
 
 function CreateQuestions($id, $text)
 {
-    $search = array("[input]" => "<span class='dropable' id='drop3' ondrop='Drop(event, this)' ondragover='AllowedDrop(event)'>svar...</span>");
-    $newtext = StringReplaceAssociative($search, $text);
-
+    $newtext = ApplyBasicFormat($text);
     echo "<p id='question".$id."' class='question'>".ToUTF8($newtext)."</p><br/>";
 }
-
-function StringReplaceAssociative(array $replace, $subject)
-{
-    return str_replace(array_keys($replace), array_values($replace), $subject);
-}
-
 ?>

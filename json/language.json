@@ -1,4 +1,12 @@
-{"nl":
+{"default":
+  [
+    {
+      "reset_text": "Reset",
+      "correct_text": "Good",
+      "wrong_text": "Wrong"
+    }
+  ],
+  "nl":
   [
     {
       "reset_text": "Reset",
@@ -17,17 +25,9 @@
   "dk":
   [
     {
-      "reset_text": "Ingen",
+      "reset_text": "Igen",
       "correct_text": "Rigtige",
       "wrong_text": "Forkerte"
-    }
-  ],
-  "en":
-  [
-    {
-      "reset_text": "Reset",
-      "correct_text": "Good",
-      "wrong_text": "Wrong"
     }
   ]
 }
