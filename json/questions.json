@@ -2,17 +2,17 @@
   "section1":[
   {
     "caption": "Du skal melde afbud til aftalen:",
-    "vragen" :[
+    "questions" :[
       {
-        "vraag" : "Jeg kan ikke [input] komme på fredag.",
+        "text" : "Jeg kan ikke [input] komme på fredag.",
         "answerid" : "1"
       },
       {
-        "vraag" : "Jeg melder afbud til vores [input].",
+        "text" : "Jeg melder afbud til vores [input].",
         "answerid" : "2"
       },
       {
-        "vraag" : "Ja må desvære melde [input] til aftalen på fredag",
+        "text" : "Ja må desvære melde [input] til aftalen på fredag.",
         "answerid" : "3"
       }
     ]
@@ -20,17 +20,17 @@
   "section2":[
   {
     "caption": "Du skal fortælle, hvorfor du ikke kan komme:",
-    "vragen" :[
+    "questions" :[
       {
-        "vraag" : "Jeg [input] ikke komme, fordi jeg skal i lektie-café.",
+        "text" : "Jeg [input] ikke komme, fordi jeg skal i lektie-café.",
         "answerid" : "1"
       },
       {
-        "vraag" : "Det er, fordi jeg skal [input] arbedje.",
+        "text" : "Det er, fordi jeg skal [input] arbedje.",
         "answerid" : "2"
       },
       {
-        "vraag" : "[input] skal til tandlæge.",
+        "text" : "[input] skal til tandlæge.",
         "answerid" : "3"
       }
     ]
@@ -38,26 +38,26 @@
 
   "section3":[
     {
-      "caption": "Du skal foreslå en ny aftale",
-      "vragen": [
+      "caption": "Du skal foreslå en ny aftale.",
+      "questions": [
         {
-          "vraag": "Vi kan mødes på lørdag kl. 15. Hvad synes [input]",
+          "text": "Vi kan mødes på lørdag kl. 15. Hvad synes [input].",
           "answerid": "1"
         },
         {
-          "vraag": "[input] vi mødes næste fredag i stedet for?",
+          "text": "[input] vi mødes næste fredag i stedet for?",
           "answerid": "2"
         },
         {
-          "vraag": "Jeg forslår en ny aftale [input] med lørdag eftermiddag?",
+          "text": "Jeg forslår en ny aftale [input] med lørdag eftermiddag?",
           "answerid": "3"
         },
         {
-          "vraag": "Jeg [input], du kan komme.",
+          "text": "Jeg [input], du kan komme.",
           "answerid": "3"
         },
         {
-          "vraag": "Kærlig [input] .....",
+          "text": "Kærlig [input] .....",
           "answerid": "3"
         }
       ]
