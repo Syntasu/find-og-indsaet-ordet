@@ -47,6 +47,7 @@
     <script src="js/DragDropManager.js"></script>
     <script src="js/LanguageManager.js"></script>
     <script src="js/CheckAnswers.js"></script>
+    <script src="js/Scoreboard.js"></script>
     <script src="js/Reset.js"></script>
 
     <script>

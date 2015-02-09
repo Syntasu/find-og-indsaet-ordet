@@ -1,5 +1,6 @@
 var root = "/stageopdrachten/find-og-indsaet-ordet";
 
+//Grab all JSON files
 var optionsJSON = $.getJSON(root+"/json/options.json", function(data){ optionsJSON = data; });
 var questionJSON = $.getJSON(root+"/json/questions.json", function(data){ questionJSON = data; });
 
@@ -9,13 +10,14 @@ function CheckAnswer(captionid, questionid, answer, dropped)
     var answerid = GetOptionIdByName(answer.innerHTML);
     var questionanswer = GetAnswerQuestion(captionid, questionid);
 
-    console.log(answerid + " Answer: " + questionanswer);
-
     if(parseInt(answerid) == parseInt(questionanswer))
     {
-        alert("goed!");
+        //Antwoord goed
+        AddCorrect();
+
         dropped.innerHTML = dragging.innerHTML;
         dropped.style.color = "black";
+        dropped.style.backgroundColor = "green";
 
         answer.parentNode.style.height = "0px";
         answer.parentNode.style.visibility = "collapse";
@@ -23,7 +25,12 @@ function CheckAnswer(captionid, questionid, answer, dropped)
     }
     else
     {
-        alert("fout!");
+        //Antwoord fout.
+        AddWrong();
+
+        dropped.innerHTML = dragging.innerHTML;
+        dropped.style.color = "black";
+        dropped.style.backgroundColor = "red";
     }
 
 

@@ -2,6 +2,7 @@ function ResetAll()
 {
     ResetOptions();
     ResetInputs();
+    ResetScore();
 }
 
 function ResetOptions()
@@ -30,9 +31,15 @@ function ResetInputs()
             inputs[i].innerHTML = "svar...";
             inputs[i].style.color = "rgba(88,88,88,0.5)";
             inputs[i].style.padding = "0px";
+            inputs[i].style.backgroundColor = "white";
         }
     }
 }
 
+function ResetScore()
+{
+    document.getElementById("score_wrong").innerHTML = 0;
+    document.getElementById("score_correct").innerHTML = 0;
+}
 
 
