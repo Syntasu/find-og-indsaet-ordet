@@ -14,10 +14,10 @@ function ResetOptions()
         {
             inputs[i].style.height = "20px";
             inputs[i].style.visibility = "visible";
+            inputs[i].style.padding = "5px";
         }
     }
 }
-
 
 function ResetInputs()
 {
@@ -29,6 +29,7 @@ function ResetInputs()
         {
             inputs[i].innerHTML = "svar...";
             inputs[i].style.color = "rgba(88,88,88,0.5)";
+            inputs[i].style.padding = "0px";
         }
     }
 }

@@ -44,8 +44,12 @@
     </body>
 
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script id="scripts" src="js/DragDropManager.js"></script>
-    <script id="scripts" src="js/LanguageManager.js"></script>
-    <script id="scripts" src="js/Reset.js"></script>
+    <script src="js/DragDropManager.js"></script>
+    <script src="js/LanguageManager.js"></script>
+    <script src="js/Reset.js"></script>
+
+    <script>
+        ResetAll();
+    </script>
 
 </html>

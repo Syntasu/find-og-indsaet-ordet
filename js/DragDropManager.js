@@ -24,6 +24,7 @@ function Drop(ev, target)
 
         dragging.parentNode.style.height = "0px";
         dragging.parentNode.style.visibility = "collapse";
+        dragging.parentNode.style.padding = "0px";
 
         dragging = "";
     }
