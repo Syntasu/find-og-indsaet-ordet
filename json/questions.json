@@ -5,15 +5,15 @@
     "questions" :[
       {
         "text" : "Jeg kan ikke [input] komme på fredag.",
-        "answerid" : "1"
+        "answerid" : "5"
       },
       {
         "text" : "Jeg melder afbud til vores [input].",
-        "answerid" : "2"
+        "answerid" : "12"
       },
       {
         "text" : "Ja må desvære melde [input] til aftalen på fredag.",
-        "answerid" : "3"
+        "answerid" : "10"
       }
     ]
   }],
@@ -23,15 +23,15 @@
     "questions" :[
       {
         "text" : "Jeg [input] ikke komme, fordi jeg skal i lektie-café.",
-        "answerid" : "1"
+        "answerid" : "11"
       },
       {
         "text" : "Det er, fordi jeg skal [input] arbedje.",
-        "answerid" : "2"
+        "answerid" : "6"
       },
       {
         "text" : "[input] skal til tandlæge.",
-        "answerid" : "3"
+        "answerid" : "1"
       }
     ]
   }],
@@ -41,12 +41,16 @@
       "caption": "Du skal foreslå en ny aftale.",
       "questions": [
         {
+          "text": "Jeg vil [input] leave en ny aftale med dig.",
+          "answerid": "4"
+        },
+        {
           "text": "Vi kan mødes på lørdag kl. 15. Hvad synes [input].",
-          "answerid": "1"
+          "answerid": "8"
         },
         {
           "text": "[input] vi mødes næste fredag i stedet for?",
-          "answerid": "2"
+          "answerid": "14"
         },
         {
           "text": "Jeg forslår en ny aftale [input] med lørdag eftermiddag?",
@@ -54,11 +58,11 @@
         },
         {
           "text": "Jeg [input], du kan komme.",
-          "answerid": "3"
+          "answerid": "15"
         },
         {
           "text": "Kærlig [input] .....",
-          "answerid": "3"
+          "answerid": "9"
         }
       ]
     }]

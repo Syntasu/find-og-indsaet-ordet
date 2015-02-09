@@ -20,8 +20,8 @@
 
         <div id="score_wrapper">
             <p id="score_text" >
-                <span id="correct_text">Good</span>
-                :&nbsp; <span id="score_correct">0</span>
+                <span id="correct_text">Good</span>:
+                &nbsp; <span id="score_correct">0</span>
 
                 &nbsp; <span id="wrong_text">Wrong</span>:
                 &nbsp; <span id="score_wrong">0</span>
@@ -46,6 +46,7 @@
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="js/DragDropManager.js"></script>
     <script src="js/LanguageManager.js"></script>
+    <script src="js/CheckAnswers.js"></script>
     <script src="js/Reset.js"></script>
 
     <script>

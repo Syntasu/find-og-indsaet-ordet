@@ -4,19 +4,20 @@ include_once $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet
 function StartGeneratingQuestions()
 {
     $id = 0;
+
     $path = $_SERVER["DOCUMENT_ROOT"] . "/stageopdrachten/find-og-indsaet-ordet/json/questions.json";
     $jsonraw = GetJsonFileContent($path);
 
     $results = json_decode($jsonraw, true);
 
-    foreach($results as $result)
+    foreach ($results as $result)
     {
-        foreach($result as $caption)
+        foreach ($result as $caption)
         {
             createCaption($id, $caption["caption"]);
 
             $questionid = 0;
-            foreach($caption["questions"] as $question)
+            foreach ($caption["questions"] as $question)
             {
                 CreateQuestions($questionid, $question["text"]);
 
@@ -27,12 +28,13 @@ function StartGeneratingQuestions()
         }
         $id++;
     }
+
 }
 
 function CreateCaption($id, $text)
 {
     echo "<div id='section".$id."' class='section'>";
-    echo "<h4 id='caption2' class='caption'>".HTMLSafeString($text)."</h4>";
+    echo "<h4 id='caption".$id."' class='caption'>".HTMLSafeString($text)."</h4>";
 }
 
 function CreateQuestions($id, $text)

@@ -15,16 +15,19 @@ function Drag(ev)
 function Drop(ev, target)
 {
     ev.preventDefault();
-    var dropped = ev.target.innerHTML;
+    var dropped = ev.target;
 
     if(dragging.id == "option_text")
     {
-        target.innerHTML = dragging.innerHTML;
-        target.style.color = "black";
+        var section = dropped.parentNode.parentNode.id;
+        var sectionsplit  = section.split("section");
+        var sectionid = parseInt(sectionsplit[1]) + 1;
 
-        dragging.parentNode.style.height = "0px";
-        dragging.parentNode.style.visibility = "collapse";
-        dragging.parentNode.style.padding = "0px";
+        var question = dropped.parentNode.id;
+        var questionsplit = question.split("question");
+        var questionid = parseInt(questionsplit[1]);
+
+        CheckAnswer(sectionid, questionid, dragging, target);
 
         dragging = "";
     }
