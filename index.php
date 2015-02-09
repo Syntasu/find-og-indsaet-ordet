@@ -28,6 +28,10 @@
             </p>
         </div>
 
+        <audio id="audio">
+            <source id="mp3source" type="audio/mp3"></source>
+        </audio>
+
 
         <div id="content_wrapper">
             <?php
@@ -44,6 +48,7 @@
     </body>
 
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="js/SoundManager.js"></script>
     <script src="js/DragDropManager.js"></script>
     <script src="js/LanguageManager.js"></script>
     <script src="js/CheckAnswers.js"></script>

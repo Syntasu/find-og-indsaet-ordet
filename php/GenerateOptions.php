@@ -19,7 +19,7 @@ function StartGeneratingOptions()
 function CreateOption($id, $text)
 {
     echo '<div id="option'. $id . '" class="option">
-            <img id="option_image" src="img/button.png" width="30" height="26" />
+            <img id="option_image" src="img/button.png" width="30" height="26" onclick="Play(\'' . $text . '\')" />
             <p draggable="true" ondragstart="Drag(event)" id="option_text">'.$text.'</p>
         </div>';
 }
