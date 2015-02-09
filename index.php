@@ -40,7 +40,7 @@
             ?>
         </div>
 
-        <div id="options_wrapper">
+        <div id="options_wrapper" clas="noselect">
             <?php
                 StartGeneratingOptions();
             ?>
@@ -58,5 +58,7 @@
     <script>
         ResetAll();
     </script>
+
+
 
 </html>

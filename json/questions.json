@@ -4,16 +4,19 @@
     "caption": "Du skal melde afbud til aftalen:",
     "questions" :[
       {
-        "text" : "Jeg kan ikke [input] komme på fredag.",
-        "answerid" : "5"
+        "text" : "Jeg kan [input] ikke komme på fredag.",
+        "answerid" : "5",
+        "sound": "a1) Jeg kan desværre ikke komme på fredag"
       },
       {
         "text" : "Jeg melder afbud til vores [input].",
-        "answerid" : "12"
+        "answerid" : "12",
+        "sound": "b1) Jeg melder afbud til vores aftale"
       },
       {
         "text" : "Ja må desvære melde [input] til aftalen på fredag.",
-        "answerid" : "10"
+        "answerid" : "10",
+        "sound": "c1) Jeg må desværre melde afbud til aftalen på fredag"
       }
     ]
   }],
@@ -23,15 +26,18 @@
     "questions" :[
       {
         "text" : "Jeg [input] ikke komme, fordi jeg skal i lektie-café.",
-        "answerid" : "11"
+        "answerid" : "11",
+        "sound": "a2) Jeg kan ikke komme fordi jeg skal i lektie-cafe"
       },
       {
         "text" : "Det er, fordi jeg skal [input] arbedje.",
-        "answerid" : "6"
+        "answerid" : "6",
+        "sound": "b2) Det er fordi jeg skal på arbejde"
       },
       {
         "text" : "[input] skal til tandlæge.",
-        "answerid" : "1"
+        "answerid" : "1",
+        "sound": "c2) Jeg skal til tandlæge"
       }
     ]
   }],
@@ -42,27 +48,33 @@
       "questions": [
         {
           "text": "Jeg vil [input] leave en ny aftale med dig.",
-          "answerid": "4"
+          "answerid": "4",
+          "sound": "a3) Jeg vil gerne lave en ny aftale med dig"
         },
         {
           "text": "Vi kan mødes på lørdag kl. 15. Hvad synes [input].",
-          "answerid": "8"
+          "answerid": "8",
+          "sound": "no sound!"
         },
         {
           "text": "[input] vi mødes næste fredag i stedet for?",
-          "answerid": "14"
+          "answerid": "14",
+          "sound": "b3) Kan vi mødes næste fredag i stedet for"
         },
         {
           "text": "Jeg forslår en ny aftale [input] med lørdag eftermiddag?",
-          "answerid": "3"
+          "answerid": "3",
+          "sound": "c3) Jeg foreslår en ny aftale hvad med lørdag eftermiddag"
         },
         {
           "text": "Jeg [input], du kan komme.",
-          "answerid": "15"
+          "answerid": "15",
+          "sound": "c4) Jeg håber du kan komme Kærlighilsen"
         },
         {
           "text": "Kærlig [input] .....",
-          "answerid": "9"
+          "answerid": "9",
+          "sound": "no sound!"
         }
       ]
     }]

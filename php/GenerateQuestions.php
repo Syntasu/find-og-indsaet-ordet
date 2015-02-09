@@ -19,7 +19,7 @@ function StartGeneratingQuestions()
             $questionid = 0;
             foreach ($caption["questions"] as $question)
             {
-                CreateQuestions($questionid, $question["text"]);
+                CreateQuestions($questionid, $id, $question["text"] );
 
                 $questionid++;
             }
@@ -37,8 +37,8 @@ function CreateCaption($id, $text)
     echo "<h4 id='caption".$id."' class='caption'>".HTMLSafeString($text)."</h4>";
 }
 
-function CreateQuestions($id, $text)
+function CreateQuestions($id, $captionid, $text)
 {
-    echo "<p id='question".$id."' class='question'>".HTMLSafeString($text)."</p><br/>";
+    echo "<p id='question".$id."' class='question'><img class='noselect' id='button".($captionid+1)."-".($id+1)."' onclick='PlaySentence(this)' src='img/button.png' width='30' height='26'/> " .HTMLSafeString($text) . "</p><br/>";
 }
 ?>

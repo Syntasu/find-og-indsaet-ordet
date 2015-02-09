@@ -18,9 +18,9 @@ function StartGeneratingOptions()
 
 function CreateOption($id, $text)
 {
-    echo '<div id="option'. $id . '" class="option">
-            <img id="option_image" src="img/button.png" width="30" height="26" onclick="Play(\'' . $text . '\')" />
-            <p draggable="true" ondragstart="Drag(event)" id="option_text">'.$text.'</p>
+    echo '<div id="option'. $id . '" class="option noselect">
+            <img  class="noselect" id="option_image" src="img/button.png" width="30" height="26" onclick="PlayWord(\'' . $text . '\')" />
+            <p class="noselect" draggable="true" ondragstart="Drag(event)" id="option_text">'.$text.'</p>
         </div>';
 }
 

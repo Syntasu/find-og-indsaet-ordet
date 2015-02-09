@@ -34,7 +34,7 @@
     display: block;
     position:absolute;
 
-    width: 220px;
+    width: 320px;
     height:30px;
 
     margin-top: 20px;
@@ -96,7 +96,7 @@
 }
 
 /*Reused classes*/
-.dropable {
+.dropable{
     display: inline-block;
 
     margin-left: 10px;
@@ -131,6 +131,18 @@
     background-color: #87A0A1;
     border: 1px solid rgba(0,0,0,0.25);
 }
+.noselect{
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    -o-user-select: none;
+    user-select: none;
+}
+.hidden
+{
+    visibility: hidden;
+}
+
 
 /* Pseudo elements */
 #option_image:hover {
