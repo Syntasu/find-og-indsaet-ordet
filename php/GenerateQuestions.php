@@ -39,6 +39,6 @@ function CreateCaption($id, $text)
 
 function CreateQuestions($id, $captionid, $text)
 {
-    echo "<p id='question".$id."' class='question'><img class='noselect' id='button".($captionid+1)."-".($id+1)."' onclick='PlaySentence(this)' src='img/button.png' width='30' height='26'/> " .HTMLSafeString($text) . "</p><br/>";
+    echo "<p id='question".$id."' class='question'><img class='noselect hidden' id='button".($captionid+1)."-".($id+1)."' onclick='PlaySentence(this)' src='img/button.png' width='30' height='26'/> " .HTMLSafeString($text) . "</p><br/>";
 }
 ?>

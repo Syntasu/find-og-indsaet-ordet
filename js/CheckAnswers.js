@@ -22,6 +22,8 @@ function CheckAnswer(captionid, questionid, answer, dropped)
         answer.parentNode.style.height = "0px";
         answer.parentNode.style.visibility = "collapse";
         answer.parentNode.style.padding = "0px";
+
+        $(dropped.parentNode.getElementsByTagName("img")[0]).removeClass("hidden");
     }
     else
     {

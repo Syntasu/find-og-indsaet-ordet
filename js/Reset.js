@@ -32,6 +32,8 @@ function ResetInputs()
             inputs[i].style.color = "rgba(88,88,88,0.5)";
             inputs[i].style.padding = "0px";
             inputs[i].style.backgroundColor = "white";
+
+            $(inputs[i].parentNode.getElementsByTagName("img")[0]).addClass("hidden");
         }
     }
 }
