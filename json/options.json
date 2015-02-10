@@ -2,62 +2,78 @@
 [
   {
     "id": "1",
-    "word": "Jeg"
+    "word": "Jeg",
+    "sound": "jeg"
   },
   {
     "id": "2",
-    "word": "skal"
+    "word": "skal",
+    "sound": "skal"
+
   },
   {
     "id": "3",
-    "word": "Hvad"
+    "word": "Hvad",
+    "sound": "hvad"
   },
   {
     "id": "4",
-    "word": "gerne"
+    "word": "gerne",
+    "sound": "gerne"
   },
   {
     "id": "5",
-    "word": "desværre"
+    "word": "desværre",
+    "sound": "desværre"
   },
   {
     "id": "6",
-    "word": "på"
+    "word": "på",
+    "sound": "på"
   },
   {
     "id": "7",
-    "word": "kære"
+    "word": "kære",
+    "sound": "kære"
   },
   {
     "id": "8",
-    "word": "du"
+    "word": "du",
+    "sound": "du"
   },
   {
     "id": "9",
-    "word": "hilsen"
+    "word": "hilsen",
+    "sound": "hilsen"
   },
   {
     "id": "10",
-    "word": "afbud"
+    "word": "afbud",
+    "sound": "afbud"
   },
   {
     "id": "11",
-    "word": "kan"
+    "word": "kan",
+    "sound": "kan"
   },
   {
     "id": "12",
-    "word": "aftale"
+    "word": "aftale",
+    "sound": "aftale"
   },
   {
     "id": "13",
-    "word": "med"
+    "word": "med",
+    "sound": "med"
   },
   {
     "id": "14",
-    "word": "Kan"
+    "word": "Kan",
+    "sound": "kan"
   },
   {
     "id": "15",
-    "word": "håber"
+    "word": "håber",
+    "sound": "håber"
   }
 ]}

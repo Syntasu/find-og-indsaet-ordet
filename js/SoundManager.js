@@ -3,7 +3,7 @@ function PlayWord(sound)
     var audio = document.getElementById("audio");
     var source = document.getElementById("mp3source");
 
-    source.src = "sounds/words/"+sound+".mp3";
+    source.src = "sounds/words/"+GetSoundOption(sound)+".mp3";
 
     audio.load();
     audio.play();
@@ -48,5 +48,22 @@ function GetSoundQuestion(captionid, answerid)
     else
     {
         setTimeout(GetAnswerQuestion, 20);
+    }
+}
+
+function GetSoundOption(answer)
+{
+    if (optionsJSON != undefined)
+    {
+        for(var i = 0; i < optionsJSON.Options.length; i++)
+        {
+            if(optionsJSON.Options[i].word == answer)
+            {
+                return optionsJSON.Options[i].sound;
+            }
+        }
+    }
+    else {
+        setTimeout(GetOptionIdByName, 20);
     }
 }
